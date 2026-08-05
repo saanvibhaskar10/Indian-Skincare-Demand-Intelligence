@@ -18,19 +18,16 @@ By combining Google Trends search data (29 terms, 5 years) with Nykaa supply dat
 
 ## Project Structure
 
-**data_collection/**
-- `trends_collection.ipynb` — Google Trends data pull and normalisation
-
-**dashboard/**
-- `app.py` — Streamlit dashboard
-- `.streamlit/config.toml` — Theme configuration
-
-**data/**
+**Root level:**
+- `skincare_trends_data_collection.ipynb` — Google Trends data collection, anchor selection and normalisation
 - `skincare_trends_master.xlsx` — Normalised Google Trends data (29 terms, 61 months)
 - `nykaa_data.xlsx` — Nykaa supply data (8 brands, 4 categories)
-
-**report/**
 - `Indian_Skincare_Insight_Report.docx` — Full consulting-style insight report
+
+**dashboard/**
+- `app.py` — Streamlit interactive dashboard
+- `requirements.txt` — Python dependencies
+- `.streamlit/config.toml` — Theme configuration
 
 
 ## Methodology
